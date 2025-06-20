@@ -77,6 +77,58 @@ ul > li > a:hover {
   width: 100% !important;
 }
 
+/* ================= > Typography < ================= */
+
+h1 {
+  font-size: clamp(2.5rem, 4vw + 1rem, 4rem);
+}
+
+h2 {
+  font-size: clamp(2rem, 3vw + 0.8rem, 3.2rem);
+}
+
+h3 {
+  font-size: clamp(1.75rem, 2.5vw + 0.5rem, 2.5rem);
+}
+
+h4 {
+  font-size: clamp(1.5rem, 2vw + 0.4rem, 2rem);
+}
+
+h5 {
+  font-size: clamp(1.25rem, 1.5vw + 0.3rem, 1.6rem);
+}
+
+h6 {
+  font-size: clamp(1.1rem, 1.2vw + 0.2rem, 1.3rem);
+}
+
+p {
+  font-size: clamp(1rem, 1vw + 0.3rem, 1.1rem);
+  font-family: var(--wp--preset--font-family--poppins);
+  line-height: 1.8;
+}
+
+button,
+.wp-block-button__link {
+  font-family: var(--wp--preset--font-family--montserrat);
+  font-size: clamp(1rem, 1vw + 0.3rem, 1.1rem);
+}
+
+figcaption {
+  font-family: var(--wp--preset--font-family--montserrat);
+}
+
+a {
+  color: var(--wp--preset--color--custom-text-color);
+  font-family: var(--wp--preset--font-family--montserrat);
+  transition: color 0.25s ease-in-out;
+}
+
+a:hover {
+  color: var(--wp--preset--color--custom-primary);
+}
+
 /* ================= > Popup < ================= */
 
 .ovantis-fixed-message {
@@ -152,6 +204,30 @@ ul > li > a:hover {
   background-size: 1000px 700px, 700px 500px, 100% 100%;
   background-position: top center, top right, center;
   background-blend-mode: screen, screen, overlay;
+}
+
+.glow-right {
+  background-image:
+    radial-gradient(circle at center,
+      rgba(83, 54, 209, 0.25) 0%,
+      rgba(161, 95, 251, 0.08) 40%,
+      transparent 70%);
+  background-repeat: no-repeat;
+  background-size: 1000px 1000px;
+  background-position: right top;
+  background-blend-mode: screen;
+}
+
+.glow-left {
+  background-image:
+    radial-gradient(circle at center,
+      rgba(83, 54, 209, 0.25) 0%,
+      rgba(161, 95, 251, 0.08) 40%,
+      transparent 70%);
+  background-repeat: no-repeat;
+  background-size: 1000px 1000px;
+  background-position: left top;
+  background-blend-mode: screen;
 }
 
 /* ================= > Blog < ================= */
