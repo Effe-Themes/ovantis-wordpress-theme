@@ -182,8 +182,8 @@
 			"heading": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--manrope)",
-					"fontStyle": "italic",
-					"fontWeight": "800",
+					"fontStyle": "normal",
+					"fontWeight": "700",
 					"lineHeight": "1.5"
 				}
 			},
@@ -211,7 +211,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--poppins)",
+			"fontFamily": "var(--wp--preset--font-family--montserrat)",
 			"lineHeight": "1.6"
 		}
 	},

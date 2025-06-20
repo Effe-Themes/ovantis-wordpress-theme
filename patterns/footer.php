@@ -5,67 +5,28 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"className":"footer-glow","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|60"}}},"backgroundColor":"custom-background-secondary","layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group footer-glow has-custom-background-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"width":"60%"} -->
-<div class="wp-block-column" style="flex-basis:60%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","contentSize":"75%","justifyContent":"left"}} -->
-<div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading"><?php /* Translators: 1. is the start of a 'em' HTML element, 2. is the end of a 'em' HTML element */ 
-echo sprintf( esc_html__( '%1$sDriven by purpose. Defined by design.%2$s', 'ovantis' ), '<em>', '</em>' ); ?></h2>
-<!-- /wp:heading --></div>
-<!-- /wp:group --></div>
-<!-- /wp:column -->
-
-<!-- wp:column -->
+<!-- wp:group {"className":"glow-right","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|60"}},"border":{"top":{"color":"#bababa7a","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group glow-right" style="border-top-color:#bababa7a;border-top-width:1px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading"><?php esc_html_e('Pages', 'ovantis');?></h2>
+<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
+<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><?php esc_html_e('Company', 'ovantis');?></h3>
 <!-- /wp:heading -->
 
-<!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
+<!-- wp:list {"style":{"typography":{"lineHeight":"2"}}} -->
+<ul style="line-height:2" class="wp-block-list"><!-- wp:list-item -->
 <li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sAbout Us%2$s', 'ovantis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
+echo sprintf( esc_html__( '%1$sBlog%2$s', 'ovantis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
 <li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sServices%2$s', 'ovantis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
+echo sprintf( esc_html__( '%1$sTeam%2$s', 'ovantis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
 <li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sServices%2$s', 'ovantis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sNews%2$s', 'ovantis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sTestimonials%2$s', 'ovantis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list --></div>
-<!-- /wp:group --></div>
-<!-- /wp:column -->
-
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading"><?php esc_html_e('Legal', 'ovantis');?></h2>
-<!-- /wp:heading -->
-
-<!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sPrivacy Policy%2$s', 'ovantis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sConditions%2$s', 'ovantis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
+echo sprintf( esc_html__( '%1$sCareers%2$s', 'ovantis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
@@ -74,20 +35,38 @@ echo sprintf( esc_html__( '%1$sContact Us%2$s', 'ovantis' ), '<a href="' . esc_u
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
+<!-- /wp:column -->
 
-<!-- wp:spacer {"height":"var:preset|spacing|30"} -->
-<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
+<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><?php esc_html_e('Info', 'ovantis');?></h3>
+<!-- /wp:heading -->
 
-<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"align":"left","className":"copy","style":{"typography":{"textDecoration":"none"}}} -->
-<p class="has-text-align-left copy" style="text-decoration:none"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the start of a 'mark' HTML element, 3. is the end of a 'mark' HTML element, 4. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( 'Proudly powered by WordPress | Designed by: %1$s%2$sEffe Themes%3$s%4$s', 'ovantis' ), '<a href="' . esc_url( 'https://effethemes.com/' ) . '" target="_blank" rel="noreferrer noopener">', '<mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-primary-color">', '</mark>', '</a>' ); ?></p>
-<!-- /wp:paragraph -->
+<!-- wp:list {"style":{"typography":{"lineHeight":"2"}}} -->
+<ul style="line-height:2" class="wp-block-list"><!-- wp:list-item -->
+<li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
+echo sprintf( esc_html__( '%1$sPrivacy Policy%2$s', 'ovantis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
+<!-- /wp:list-item -->
 
-<!-- wp:social-links {"iconColor":"custom-text-color","iconColorValue":"#f6f6f6","className":"is-style-logos-only"} -->
+<!-- wp:list-item -->
+<li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element, 3. is the start of a 'a' HTML element, 4. is the end of a 'a' HTML element */ 
+echo sprintf( esc_html__( '%1$s%2$s%3$sCookies Policy%4$s', 'ovantis' ), '<a href="' . esc_url( '#' ) . '">', '</a>', '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
+echo sprintf( esc_html__( '%1$sTerms & Conditions%2$s', 'ovantis' ), '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"60%"} -->
+<div class="wp-block-column" style="flex-basis:60%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","justifyContent":"right","contentSize":"70%"}} -->
+<div class="wp-block-group"><!-- wp:site-title {"level":3,"textAlign":"right","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} /-->
+
+<!-- wp:social-links {"iconColor":"custom-text-color","iconColorValue":"#f6f6f6","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"right"}} -->
 <ul class="wp-block-social-links has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"#","service":"instagram"} /-->
 
 <!-- wp:social-link {"url":"#","service":"linkedin"} /-->
@@ -97,6 +76,13 @@ echo sprintf( esc_html__( 'Proudly powered by WordPress | Designed by: %1$s%2$s
 <!-- wp:social-link {"url":"#","service":"youtube"} /-->
 
 <!-- wp:social-link {"url":"#","service":"twitter"} /--></ul>
-<!-- /wp:social-links --></div>
+<!-- /wp:social-links -->
+
+<!-- wp:paragraph {"align":"right","className":"copy","style":{"typography":{"textDecoration":"none"}}} -->
+<p class="has-text-align-right copy" style="text-decoration:none"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the start of a 'mark' HTML element, 3. is the end of a 'mark' HTML element, 4. is the end of a 'a' HTML element */ 
+echo sprintf( esc_html__( 'Proudly powered by WordPress | Designed by: %1$s%2$sEffe Themes%3$s%4$s', 'ovantis' ), '<a href="' . esc_url( 'https://effethemes.com/' ) . '" target="_blank" rel="noreferrer noopener">', '<mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-primary-color">', '</mark>', '</a>' ); ?></p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
 <!-- /wp:group -->
