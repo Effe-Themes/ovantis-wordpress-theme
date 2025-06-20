@@ -2,13 +2,6 @@
 	"settings": {
 		"appearanceTools": true,
 		"color": {
-			"gradients": [
-				{
-					"gradient": "linear-gradient(138deg, #0d1b2a 0%, #1e90ff 40%, #a15ffb 85%, #00ffd5 100%)",
-					"name": "Main gradiant",
-					"slug": "custom-main-gradiant"
-				}
-			],
 			"palette": [
 				{
 					"color": "#06040c",

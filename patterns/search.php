@@ -41,7 +41,7 @@
 <h4 class="wp-block-heading"><?php esc_html_e('Search', 'ovantis');?></h4>
 <!-- /wp:heading -->
 
-<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Searching...","width":291,"widthUnit":"px","buttonText":"Search","style":{"border":{"radius":"20px"}},"gradient":"custom-main-gradiant"} /-->
+<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Searching...","width":291,"widthUnit":"px","buttonText":"Search","style":{"border":{"radius":"20px"}},"backgroundColor":"custom-primary"} /-->
 
 <!-- wp:separator {"className":"is-style-wide","style":{"color":{"background":"#a5a5a570"}}} -->
 <hr class="wp-block-separator has-text-color has-alpha-channel-opacity has-background is-style-wide" style="background-color:#a5a5a570;color:#a5a5a570"/>
