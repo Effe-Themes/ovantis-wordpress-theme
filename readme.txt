@@ -13,6 +13,9 @@ Ovantis is a dark multipurpose WordPress Block Theme designed for creative agenc
 
 == Changelog ==
 
+= 1.0.1 =
+* Added fixed banner
+
 = 1.0.0 =
 * Initial release
 
